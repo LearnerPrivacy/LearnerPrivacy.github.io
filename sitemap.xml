@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.learnerprivacy.org/categories/</loc>
+    <loc>https://www.learnerprivacy.org/posts/my-first-post/</loc>
+    <lastmod>2020-04-19T09:40:25-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.learnerprivacy.org/</loc>
+    <lastmod>2020-04-19T09:40:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.learnerprivacy.org/posts/</loc>
+    <lastmod>2020-04-19T09:40:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.learnerprivacy.org/categories/</loc>
   </url>
   
   <url>
