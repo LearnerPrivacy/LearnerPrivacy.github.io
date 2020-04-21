@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://www.learnerprivacy.org/posts/my-first-post/</link>
+      <title>About the Learner Privacy podcast</title>
+      <link>https://www.learnerprivacy.org/posts/about/</link>
       <pubDate>Sun, 19 Apr 2020 09:40:25 -0400</pubDate>
       
-      <guid>https://www.learnerprivacy.org/posts/my-first-post/</guid>
-      <description>Dude</description>
+      <guid>https://www.learnerprivacy.org/posts/about/</guid>
+      <description>I am starting a podcast about Learner Privacy because it feels to me like we have made so much progress in the area of educational technology interopeability but have done so with wanton disregard of our responsibility to protect the private data that belongs to our learners.
+If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems. Every system had their own &amp;ldquo;plugin&amp;rdquo; and &amp;ldquo;backup/restore&amp;rdquo; format.</description>
     </item>
     
   </channel>
