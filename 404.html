@@ -41,23 +41,94 @@
 
 
 
-  
-<style>
-html {
-    background-color: black;
-    background: url(/me/low-angle-view-of-man-standing-at-night-316681.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
+    
+    <style>
+    html {
+        background-color: black;
+        background: url(/me/low-angle-view-of-man-standing-at-night-316681.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    </style>
+    
+
+    
+    <style>
+    html {
+        background-color: black;
+        background: url(/me/low-angle-view-of-man-standing-at-night-316681.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    </style>
+    
 
   </head>
 
   
   <body style="background-color: transparent;">
   
+    
+       <style>
+.dream-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: block;
+  opacity: 0.0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);  
+}
+.dream-splash-image {
+    width:90%;margin-top: 50px; border:3px solid black;
+}
+</style>
+
+<div id="dream-splash" class="dream-overlay" 
+  onclick="$('#dream-splash').fadeOut(1000);">
+  <img src="/me/splashimage.png" id="dream-splash-image" class="dream-splash-image">
+ </div>
+ <script>
+     
+    function createSplashCookie(name, value, days) {
+        var date, expires;
+        if (days) {
+            date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            expires = "; expires="+date.toGMTString();
+        } else {
+            expires = "";
+        }
+        document.cookie = name+"="+value+expires+"; path=/";
+    }
+    function getSplashCookie() {
+        return document.cookie.replace(/(?:(?:^|.*;\s*)seenSplash\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+    }
+    var seenSplash = getSplashCookie();
+    console.log('Seen', seenSplash);
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    var clientHeight = document.getElementById('dream-splash-image').clientHeight;
+    var clientWidth = document.getElementById('dream-splash-image').clientWidth;
+    if ( clientHeight < windowHeight * 0.85 ) {
+        document.getElementById('dream-splash').style.display = "none";
+    } else if ( clientWidth < windowHeight * 0.85 ) {
+        document.getElementById('dream-splash').style.display = "none";
+    } else if (seenSplash != "true" ) {
+        document.getElementById('dream-splash').style.opacity = 1.0;
+        createSplashCookie('seenSplash', 'true', 10);
+        setTimeout(function(){ $("#dream-splash").fadeOut("slow"); }, 5000);
+    }
+</script>
+
+    
     <div class="flip-container">
       <div class="flipper">
         <section class="front">
@@ -115,7 +186,7 @@ html {
         <nav class="ui secondary menu dream-menu dream-socials">
   
     <div class="item">
-      <a href="mailto:learnerprivacy@learnxp.com">
+      <a href="mailto:learnerprivacy@learnxp.com" aria-label="email">
         <i class="large mail icon" title="email"></i>
       </a>
     </div>
@@ -123,7 +194,7 @@ html {
 
   
     <div class="item">
-      <a href="https://twitter.com/drchuck" target="_blank">
+      <a href="https://twitter.com/drchuck" aria-label="twitter" target="_blank">
         <i class="large twitter icon" title="twitter"></i>
       </a>
     </div>
@@ -135,7 +206,7 @@ html {
 
   
     <div class="item">
-      <a href="https://www.linkedin.com/in/charlesseverance" target="_blank">
+      <a href="https://www.linkedin.com/in/charlesseverance" aria-label="linkedin" target="_blank">
         <i class="large linkedin icon" title="linkedin"></i>
       </a>
     </div>
@@ -143,7 +214,7 @@ html {
 
   
     <div class="item">
-      <a href="https://github.com/LearnerPrivacy" target="_blank">
+      <a href="https://github.com/LearnerPrivacy" aria-label="github" target="_blank">
         <i class="large github icon" title="github"></i>
       </a>
     </div>
@@ -151,7 +222,7 @@ html {
 
   
     <div class="item">
-      <a href="https://www.stackoverflow.com/users/1994792/drchuck" target="_blank">
+      <a href="https://www.stackoverflow.com/users/1994792/drchuck" aria-label="stackoverflow" target="_blank">
         <i class="large stack overflow icon" title="stackoverflow"></i>
       </a>
     </div>
