@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LearnerPrivacy.org</title>
-    <link>https://www.learnerprivacy.org/</link>
-    <description>Recent content on LearnerPrivacy.org</description>
+    <title>resources on LearnerPrivacy.org</title>
+    <link>https://www.learnerprivacy.org/tags/resources/</link>
+    <description>Recent content in resources on LearnerPrivacy.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 09:40:25 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 09:40:25 -0400</lastBuildDate>
     
-	<atom:link href="https://www.learnerprivacy.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.learnerprivacy.org/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>The Learner Privacy Podcast</title>
-      <link>https://www.learnerprivacy.org/posts/about/</link>
-      <pubDate>Sun, 19 Apr 2020 09:40:25 -0400</pubDate>
-      
-      <guid>https://www.learnerprivacy.org/posts/about/</guid>
-      <description>I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with wanton disregard for the protection of learners&amp;rsquo; privacy. In 2002, there were no useful standards for moving software or content among commercial learning management systems. Each system had its own &amp;ldquo;plugin&amp;rdquo; and &amp;ldquo;backup/restore&amp;rdquo; format.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems.</description>
-    </item>
     
     <item>
       <title>IMS Privacy Resources</title>
