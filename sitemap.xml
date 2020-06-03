@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://www.learnerprivacy.org/categories/</loc>
+    <lastmod>2020-04-18T09:40:25-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.learnerprivacy.org/posts/ims_privacy/</loc>
     <lastmod>2020-04-18T09:40:25-04:00</lastmod>
   </url>
@@ -38,12 +43,13 @@
   </url>
   
   <url>
-    <loc>https://www.learnerprivacy.org/posts/ims_lti/</loc>
-    <lastmod>2020-04-17T09:40:25-04:00</lastmod>
+    <loc>https://www.learnerprivacy.org/categories/resources/</loc>
+    <lastmod>2020-04-18T09:40:25-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.learnerprivacy.org/categories/</loc>
+    <loc>https://www.learnerprivacy.org/posts/ims_lti/</loc>
+    <lastmod>2020-04-17T09:40:25-04:00</lastmod>
   </url>
   
 </urlset>
