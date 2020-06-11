@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>links on LearnerPrivacy.org</title>
+    <link>https://www.learnerprivacy.org/tags/links/</link>
+    <description>Recent content in links on LearnerPrivacy.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2020 09:40:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.learnerprivacy.org/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>References</title>
+      <link>https://www.learnerprivacy.org/posts/references/</link>
+      <pubDate>Fri, 03 Apr 2020 09:40:25 -0400</pubDate>
+      
+      <guid>https://www.learnerprivacy.org/posts/references/</guid>
+      <description>This page will be used to collect various interesting papers and links. Feel free to send email or even submit pull requests to the github repository for this blog.
+Research Papers  Roxana Marachi &amp;amp; Lawrence Quill (2020) The case of Canvas: Longitudinal datafication through learning management systems, Teaching in Higher Education, 25:4, 418-434, DOI: 10.1080/13562517.2020.1739641 https://www.tandfonline.com/doi/abs/10.1080/13562517.2020.1739641  Laws Related to Privacy   About the Family Educational Rights and Privacy Act (FERPA) - https://www.</description>
+    </item>
+    
+    <item>
+      <title>Podcast URLs</title>
+      <link>https://www.learnerprivacy.org/posts/urls/</link>
+      <pubDate>Thu, 02 Apr 2020 09:40:25 -0400</pubDate>
+      
+      <guid>https://www.learnerprivacy.org/posts/urls/</guid>
+      <description>This page contains some URLs related to the podcast.
+  Main Podcast Page - https://podcast.learnerprivacy.org
+  Facebook - https://www.facebook.com/LearnerPrivacy
+  Apple iTunes Podcast - https://podcasts.apple.com/us/podcast/learnerprivacy-org/id1517868645
+  Patreon - you might want ot be a member - https://www.patreon.com/learnerprivacy
+  YouTube - Playlist https://www.youtube.com/playlist?list=PLlRFEj9H3Oj5_COWemO4hxAFpgPhqOY7e
+  </description>
+    </item>
+    
+  </channel>
+</rss>
