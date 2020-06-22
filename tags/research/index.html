@@ -312,7 +312,7 @@
 
   <div class="image">
     
-      <img src="/img/default4.jpg" alt="References" />
+      <img src="/img/default2.jpg" alt="References" />
     
   </div>
 
@@ -325,8 +325,14 @@
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      This page will be used to collect various interesting papers and links. Feel free to send email or even submit pull requests to the github repository for this blog.
-Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: Longitudinal datafication through learning management systems, Teaching in Higher Education, 25:4, 418-434, DOI: 10.1080/13562517.2020.1739641 https://www.tandfonline.com/doi/abs/10.1080/13562517.2020.1739641  Laws Related to Privacy   About the Family Educational Rights and Privacy Act (FERPA) - https://www.
+      <p>This page will be used to collect various interesting papers and links.  Feel free
+to send email or even submit pull requests to the github repository for this blog.</p>
+      
+      
+      <div>
+        <a href="/posts/references/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -396,6 +402,40 @@ Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: 
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 

@@ -15,7 +15,7 @@ The Learner Privacy Podcast
   <meta name="author" content="drchuck" />
   <meta name="description" content="I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with litter concern for the protection of learners&amp;rsquo; private data.
 Please visit the Podcast URLs Page to find the urls where you can subscrbe to this podcast.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems." />
+" />
 
 
 
@@ -25,9 +25,11 @@ If we go back to 2002, there were no useful standards around moving software or 
 
 
 <meta property="og:title" content="The Learner Privacy Podcast" />
-<meta property="og:description" content="I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with litter concern for the protection of learners&rsquo; private data.
-Please visit the Podcast URLs Page to find the urls where you can subscrbe to this podcast.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems." />
+<meta property="og:description" content="I am launching a Learning Privacy podcast to address privacy issues for our learners.
+While we have made great progress in educational technology interoperability,
+we have done so with litter concern for the protection of learners&rsquo; private data.
+Please visit the Podcast URLs Page to find the urls where you can
+subscrbe to this podcast." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.learnerprivacy.org/posts/about/" />
 <meta property="article:published_time" content="2020-04-19T09:40:25-04:00" />
@@ -37,9 +39,11 @@ If we go back to 2002, there were no useful standards around moving software or 
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Learner Privacy Podcast"/>
-<meta name="twitter:description" content="I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with litter concern for the protection of learners&rsquo; private data.
-Please visit the Podcast URLs Page to find the urls where you can subscrbe to this podcast.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems."/>
+<meta name="twitter:description" content="I am launching a Learning Privacy podcast to address privacy issues for our learners.
+While we have made great progress in educational technology interoperability,
+we have done so with litter concern for the protection of learners&rsquo; private data.
+Please visit the Podcast URLs Page to find the urls where you can
+subscrbe to this podcast."/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -199,8 +203,7 @@ where learner privacy matters.</p>
 <p>The source code for this site/blog is on github
 at <a href="https://github.com/LearnerPrivacy/hugo-site">https://github.com/LearnerPrivacy/hugo-site</a> - if you
 find a mistake or want to update a page, feel free to send a pull request.</p>
-<p>&ndash; Dr. Chuck</p>
-</article>
+<p>&ndash; Dr. Chuck</p></article>
     </section>
 
     <footer class="ui attached segment dream-tags">
@@ -420,6 +423,40 @@ find a mistake or want to update a page, feel free to send a pull request.</p>
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 

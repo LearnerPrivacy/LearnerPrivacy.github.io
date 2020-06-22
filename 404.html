@@ -209,6 +209,40 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 

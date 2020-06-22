@@ -325,9 +325,17 @@
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with litter concern for the protection of learners’ private data.
-Please visit the Podcast URLs Page to find the urls where you can subscrbe to this podcast.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems.
+      <p>I am launching a Learning Privacy podcast to address privacy issues for our learners.
+While we have made great progress in educational technology interoperability,
+we have done so with litter concern for the protection of learners&rsquo; private data.</p>
+<p>Please visit the <em><a href="/posts/urls/">Podcast URLs Page</a></em> to find the urls where you can
+subscrbe to this podcast.</p>
+      
+      
+      <div>
+        <a href="/posts/about/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -397,6 +405,40 @@ If we go back to 2002, there were no useful standards around moving software or 
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 

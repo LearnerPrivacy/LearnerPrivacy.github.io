@@ -312,7 +312,7 @@
 
   <div class="image">
     
-      <img src="/img/default2.jpg" alt="Podcast URLs" />
+      <img src="/img/default3.jpg" alt="Podcast URLs" />
     
   </div>
 
@@ -325,15 +325,14 @@
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      This page contains some URLs related to the podcast.
-  Main Podcast Page - https://podcast.learnerprivacy.org
-  Facebook - https://www.facebook.com/LearnerPrivacy
-  Apple iTunes Podcast - https://podcasts.apple.com/us/podcast/learnerprivacy-org/id1517868645
-  Spotify Podcast - https://open.spotify.com/show/2ccG5BxCwOA6aqDvPdJYfq
-  Google Podcast - https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xMDkwNjUyLnJzcw==
-  Patreon - you might want to be a member - https://www.patreon.com/learnerprivacy
-  YouTube - Playlist https://www.youtube.com/playlist?list=PLlRFEj9H3Oj5_COWemO4hxAFpgPhqOY7e
-  
+      <p>This page contains important URLs related to the podcast including
+the URLs to subscribe to the podcast on various podcasting platforms.</p>
+      
+      
+      <div>
+        <a href="/posts/urls/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -403,6 +402,40 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 

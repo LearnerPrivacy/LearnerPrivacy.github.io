@@ -319,9 +319,17 @@
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      I am launching a Learning Privacy podcast to address privacy issues for our learners. While we have made great progress in educational technology interoperability, we have done so with litter concern for the protection of learners’ private data.
-Please visit the Podcast URLs Page to find the urls where you can subscrbe to this podcast.
-If we go back to 2002, there were no useful standards around moving software or content between commercial learning management systems.
+      <p>I am launching a Learning Privacy podcast to address privacy issues for our learners.
+While we have made great progress in educational technology interoperability,
+we have done so with litter concern for the protection of learners&rsquo; private data.</p>
+<p>Please visit the <em><a href="/posts/urls/">Podcast URLs Page</a></em> to find the urls where you can
+subscrbe to this podcast.</p>
+      
+      
+      <div>
+        <a href="/posts/about/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -343,7 +351,7 @@ If we go back to 2002, there were no useful standards around moving software or 
 
   <div class="image">
     
-      <img src="/img/default4.jpg" alt="IMS Resources" />
+      <img src="/img/default2.jpg" alt="IMS Resources" />
     
   </div>
 
@@ -356,10 +364,16 @@ If we go back to 2002, there were no useful standards around moving software or 
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      This page will be used to collect links and resources for the IMS efforts including the IMS Privacy Task force. If you would like to become involved in the IMS Efforts, please visit https://www.imgglobal.org/
-Working Groups https://www.imsglobal.org/activity/privacy-and-security
-Specifications This page will be used to collect links and resources for IMS.
- LTI Advantage: Learning Innovation at the Speed of Now  This page contains trademarks of the IMS Global Learning Consortium including Learning Tools Interoperability® (LTI®)
+      <p>This page will be used to collect links and resources for the IMS
+efforts including the IMS Privacy Task force.  If you would
+like to become involved in the IMS Efforts, please visit
+<a href="https://www.imsglobal.org/">https://www.imsglobal.org/</a></p>
+      
+      
+      <div>
+        <a href="/posts/ims/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -381,7 +395,7 @@ Specifications This page will be used to collect links and resources for IMS.
 
   <div class="image">
     
-      <img src="/img/default3.jpg" alt="References" />
+      <img src="/img/default2.jpg" alt="References" />
     
   </div>
 
@@ -394,8 +408,14 @@ Specifications This page will be used to collect links and resources for IMS.
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      This page will be used to collect various interesting papers and links. Feel free to send email or even submit pull requests to the github repository for this blog.
-Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: Longitudinal datafication through learning management systems, Teaching in Higher Education, 25:4, 418-434, DOI: 10.1080/13562517.2020.1739641 https://www.tandfonline.com/doi/abs/10.1080/13562517.2020.1739641  Laws Related to Privacy   About the Family Educational Rights and Privacy Act (FERPA) - https://www.
+      <p>This page will be used to collect various interesting papers and links.  Feel free
+to send email or even submit pull requests to the github repository for this blog.</p>
+      
+      
+      <div>
+        <a href="/posts/references/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -417,7 +437,7 @@ Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: 
 
   <div class="image">
     
-      <img src="/img/default2.jpg" alt="Podcast URLs" />
+      <img src="/img/default3.jpg" alt="Podcast URLs" />
     
   </div>
 
@@ -430,15 +450,14 @@ Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: 
       <p class="author">@ drchuck</p>
     </div>
     <div class="description">
-      This page contains some URLs related to the podcast.
-  Main Podcast Page - https://podcast.learnerprivacy.org
-  Facebook - https://www.facebook.com/LearnerPrivacy
-  Apple iTunes Podcast - https://podcasts.apple.com/us/podcast/learnerprivacy-org/id1517868645
-  Spotify Podcast - https://open.spotify.com/show/2ccG5BxCwOA6aqDvPdJYfq
-  Google Podcast - https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xMDkwNjUyLnJzcw==
-  Patreon - you might want to be a member - https://www.patreon.com/learnerprivacy
-  YouTube - Playlist https://www.youtube.com/playlist?list=PLlRFEj9H3Oj5_COWemO4hxAFpgPhqOY7e
-  
+      <p>This page contains important URLs related to the podcast including
+the URLs to subscribe to the podcast on various podcasting platforms.</p>
+      
+      
+      <div>
+        <a href="/posts/urls/">Read More…</a>
+      </div>
+      
     </div>
   </div>
 
@@ -508,6 +527,40 @@ Research Papers  Roxana Marachi &amp; Lawrence Quill (2020) The case of Canvas: 
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
+<script>
+function handleExternalLinks() {
+
+  
+  var links = document.links;
+  var linksLength = links.length;
+  var link;
+  var linkHref;
+  var hostname = window.location.hostname;
+
+  
+  for (var i = 0; i < linksLength; i++) {
+
+    
+    link = links[i];
+
+    
+    linkHref = link.href;
+
+    
+    if (
+      link.hostname != hostname &&
+      linkHref !== 'javascript:void(0)' &&
+      linkHref !== 'javascript:void(0);'
+    ) {
+
+      
+      link.target = '_blank';
+    }
+  }
+} 
+
+handleExternalLinks();
+</script>
 
 
 
