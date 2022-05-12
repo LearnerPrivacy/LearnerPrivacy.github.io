@@ -1,80 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.learnerprivacy.org/tags/about/</loc>
     <lastmod>2020-04-19T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/</loc>
     <lastmod>2020-04-19T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/posts/</loc>
     <lastmod>2020-04-19T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/</loc>
     <lastmod>2020-04-19T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/posts/about/</loc>
     <lastmod>2020-04-19T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/categories/</loc>
     <lastmod>2020-04-17T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/posts/ims/</loc>
     <lastmod>2020-04-17T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/resources/</loc>
     <lastmod>2020-04-17T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/categories/resources/</loc>
     <lastmod>2020-04-17T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/links/</loc>
     <lastmod>2020-04-03T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/posts/references/</loc>
     <lastmod>2020-04-03T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/references/</loc>
     <lastmod>2020-04-03T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/research/</loc>
     <lastmod>2020-04-03T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/tags/podcast/</loc>
     <lastmod>2020-04-02T09:40:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.learnerprivacy.org/posts/urls/</loc>
     <lastmod>2020-04-02T09:40:25-04:00</lastmod>
   </url>
-  
 </urlset>
